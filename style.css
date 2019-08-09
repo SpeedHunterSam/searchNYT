@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3396910.jpg);
+}
+.form-group {
+    width: 80%;
+    margin: 30px auto;
+    
+}
+.container {
+    border: 1px solid black;
+    margin-top: 30px;
+    background: rgb(220,220,220, 0.9);
+    border-radius: 10px;
+}
+.article {
+    
+}
+h1 {
+    background: blue;
+    width: 68%;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 10px;
+}
