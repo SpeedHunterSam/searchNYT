@@ -33,7 +33,9 @@ document.getElementById("submitButton").addEventListener("click", function (even
 
             for (let i = 0; i < recordNum; i++) {
                 const titleDiv = document.createElement("div");
+                titleDiv.classList.add("article");
                 const snippetDiv = document.createElement("div");
+                snippetDiv.classList.add("article");
                 titleDiv.innerHTML = responseJson.response.docs[i].headline.print_headline;
                 snippetDiv.innerHTML = responseJson.response.docs[i].snippet
                 document.getElementById("populateArticles").append(titleDiv);
